@@ -1,0 +1,54 @@
+{
+	"@type": "Project",
+	"name": "",
+	"description": "",
+	"url": {
+		"@type": "url"
+	},
+	"address": {
+		"@type": "PostalAddress",
+		"addressCountry": ""
+	},
+	"maturity": "",
+	"operationType": "platform | ecosystem | app | service | dataSpace",
+	"governance": "public | private | public-private-partnership | null",
+	"businessModel": "B2B | B2C | C2C | C2B | B2G | B2B2C",
+	"typeOfData": "Skill & Competence | Occupation | Qualifications & Education | Transversal Skills",
+	"typeOfSkills": "null | skills | knowledge",
+	"functionality": "",
+	"interoperability": "legal | organisational | semantic | technical | null",
+	"geographicScope": "regional | national | european | international | global | other",
+	"dataSharingGovernance": "",
+	"stakeholders": [
+		{
+			"@type": "Organization | Person"
+		}
+	],
+	"challenge": {
+        "$ref": "/schemas/challenge"
+    },
+	"funding": {
+		"@type": "Grant",
+		"funder": {
+			"@type": "Organization"
+		},
+		"sponsor": {
+			"@type": "Organization"
+		},
+		"fundedItem": {
+			"@type": "Project",
+            "$ref": "."
+		}
+	},
+    "subProjects": [
+        {
+            "@type": "Project",
+            "$ref": "."
+        }
+    ],
+    "standards": [
+        {
+            "$ref": "/schemas/standard"
+        }
+    ]
+}
