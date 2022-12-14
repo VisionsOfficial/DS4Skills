@@ -1,0 +1,28 @@
+{
+	"theme": {
+		"$ref": "/schemas/theme"
+	},
+	"organisations": [
+		{
+			"@context": "http://schema.org/",
+			"$ref": "/schemas/organisation"
+		}
+	],
+	"projects": [
+		{
+			"@context": "http://schema.org/",
+			"$ref": "/schemas/project"
+		}
+	],
+	"tools": [
+		{
+			"$ref": "/schemas/tool"
+		}
+	],
+	"standards": [
+		{
+			"$ref": "/schemas/standard"
+		}
+	],
+	"reports": []
+}

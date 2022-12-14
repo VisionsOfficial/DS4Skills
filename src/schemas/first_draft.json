@@ -1,0 +1,99 @@
+{
+	"@context": "http://schema.org/",
+	"@type": "Organization",
+	"name": "",
+	"legalName": "",
+	"url": "",
+	"logo": "",
+	"foundingDate": "",
+	"founders": [
+		{
+			"@context": "http://schema.org/",
+			"@type": "Person",
+			"name": ""
+		}
+	],
+	"address": {
+		"@context": "http://schema.org/",
+		"@type": "PostalAddress",
+		"streetAddress": "",
+		"addressLocality": "",
+		"addressRegion": "",
+		"postalCode": "",
+		"addressCountry": ""
+	},
+	"contactPoint": {
+		"@context": "http://schema.org/",
+		"@type": "ContactPoint",
+		"contactType": "",
+		"telephone": "",
+		"email": ""
+	},
+	"projects:": [
+		{
+			"@type": "Project",
+			"name": "",
+			"description": "",
+			"url": {
+				"@context": "http://schema.org/",
+				"@type": "url"
+			},
+			"address": {
+				"@type": "PostalAddress",
+				"addressCountry": ""
+			},
+			"maturity": "",
+			"operationType": "platform | ecosystem | app | service | dataSpace",
+			"governance": "public | private | public-private-partnership | null",
+			"businessModel": "B2B | B2C | C2C | C2B | B2G | B2B2C",
+			"typeOfData": "Skill & Competence | Occupation | Qualifications & Education | Transversal Skills",
+			"typeOfSkills": "null | skills | knowledge",
+			"functionality": "",
+			"geographicScope": "regional | national | european | international | global | other",
+			"stakeholders": [
+				{
+					"@type": "Organization | Person"
+				}
+			],
+			"challenge": {
+				"$ref": "/schemas/challenge"
+			},
+			"funding": {
+				"@context": "http://schema.org/",
+				"@type": "Grant",
+				"funder": {
+					"@type": "Organization"
+				},
+				"sponsor": {
+					"@type": "Organization"
+				},
+				"fundedItem": {
+					"@type": "Project"
+				}
+			},
+			"subProjects": [
+				{
+					"@type": "Project"
+				}
+			],
+			"tool": {
+				"$ref": "/schemas/tool"
+			},
+			"standards": [
+				{
+					"name": "",
+					"description": "",
+					"governance": "",
+					"theme": {
+						"$ref": "/schemas/theme"
+					}
+				}
+			]
+		}
+	],
+	"tools": [
+		{
+			"$ref": "/schemas/tool"
+		}
+	]
+}

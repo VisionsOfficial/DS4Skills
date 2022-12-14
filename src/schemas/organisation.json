@@ -1,0 +1,43 @@
+{
+	"@context": "http://schema.org/",
+	"@type": "Organization",
+	"name": "",
+	"legalName": "",
+	"url": "",
+	"logo": "",
+	"foundingDate": "",
+	"founders": [
+		{
+            "@context": "http://schema.org/",
+			"@type": "Person",
+			"name": ""
+		}
+	],
+	"address": {
+        "@context": "http://schema.org/",
+		"@type": "PostalAddress",
+		"streetAddress": "",
+		"addressLocality": "",
+		"addressRegion": "",
+		"postalCode": "",
+		"addressCountry": ""
+	},
+	"contactPoint": {
+        "@context": "http://schema.org/",
+		"@type": "ContactPoint",
+		"contactType": "",
+		"telephone": "",
+		"email": ""
+	},
+	"projects:": [
+        {
+            "@type": "Project",
+            "$ref": "/schemas/project"
+        }
+	],
+	"tools": [
+		{
+			"$ref": "/schemas/tool"
+		}
+	]
+}

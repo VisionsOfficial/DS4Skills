@@ -1,0 +1,10 @@
+{
+    "name": "",
+    "description": "",
+	"standard": {
+        "$ref": "/schemas/standard"
+	},
+	"theme": {
+		"$ref": "/schemas/theme"
+	}
+}
